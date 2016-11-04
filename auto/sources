@@ -1,0 +1,19 @@
+
+
+
+
+INCS="\
+    src \
+    ../esclibs/src \
+    "
+    
+SRCS="\
+    src/fusexmp.c \
+    "
+ 
+LIBS="\
+    -lpthread \
+    -L/usr/local/lib -lfuse \
+    -L./lib -lesc \
+    "
+
