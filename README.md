@@ -6,7 +6,7 @@ use fuse-2.9.7
 ## title2
 ### title3
 
-```c
+```cpp
 #include<stdio.h>
 
 class b{
@@ -21,8 +21,17 @@ int main(){
   return 0;
 }
 
-
 ```
+```go
+package main
+import (
+  "fmt"
+)
+func main(){
+  fmt.Println("hehe")
+}
+```
+
 ```cpp
 class a{
 public:
